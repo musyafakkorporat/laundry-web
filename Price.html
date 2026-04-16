@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <title>Home - Rama Laundry</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand me-auto" href="#">
+      <img src="gambar/2.png" alt="RAMA Laundry Logo" height="50" class="d-inline-block align-top">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img src="gambar/2.png" alt="Logo" height="50">
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Service.html">Service</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2 active" href="Price.html">Price</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Order.html">Order</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--Paket-->
+<section id="paket-cuci" class="py-5" style="background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);">
+  <div class="container text-center mb-5">
+    <p class="text-muted mb-2 reveal-down">Paket Cuci</p>
+    <h2 class="fw-bold reveal-down" style="transition-delay: 0.2s;">Pilih Paket yang Sesuai</h2>
+  </div>
+
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4 reveal-left">
+        <div class="card border-0 shadow-sm p-4 h-100 text-center">
+          <h3 class="fw-bold text-primary mb-0">6.000</h3>
+          <p class="text-muted mb-4">per kilogram</p>
+          <ul class="list-unstyled mb-4 text-start d-inline-block">
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Minimal order 2 kg</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Waktu proses 1-2 hari</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Deterjen premium ✓</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Dilipat rapi ✓</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Garansi cuci ulang ✓</li>
+          </ul>
+          <div class="mt-auto">
+            <a href="Order.html" class="btn btn-outline-primary w-100 py-2">Pilih Paket</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal-zoom">
+        <div class="card border-primary shadow p-4 h-100 text-center position-relative" style="border-width: 2px; transform: scale(1.05); z-index: 2; background: #fff;">
+          <div class="position-absolute top-0 start-50 translate-middle">
+            <span class="badge rounded-pill bg-warning text-dark px-3 py-2"><i class="bi bi-star-fill me-1"></i> Terpopuler</span>
+          </div>
+          <h3 class="fw-bold text-primary mt-3 mb-0">9.000</h3>
+          <p class="text-muted mb-4">per kilogram</p>
+          <ul class="list-unstyled mb-4 text-start d-inline-block">
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Minimal order 2 kg</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Waktu proses 1-2 hari</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Deterjen premium ✓</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Setrika rapi ✓</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Gantungan / lipat ✓</li>
+          </ul>
+          <div class="mt-auto">
+            <a href="Order.html" class="btn btn-primary w-100 py-2 shadow">Pilih Paket</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal-right">
+        <div class="card border-0 shadow-sm p-4 h-100 text-center">
+          <h3 class="fw-bold text-primary mb-0">15.000</h3>
+          <p class="text-muted mb-4">per kilogram</p>
+          <ul class="list-unstyled mb-4 text-start d-inline-block">
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Minimal order 2 kg</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Selesai dalam 4-6 jam</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Cuci + setrika ✓</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Prioritas antrian ✓</li>
+            <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Pengiriman express ✓</li>
+          </ul>
+          <div class="mt-auto">
+            <a href="Order.html" class="btn btn-outline-primary w-100 py-2">Pilih Paket</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Tabel Harga-->
+<section id="tabel-harga" class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <p class="text-muted mb-2">Harga Detail</p>
+      <h2 class="fw-bold">Tabel Harga Lengkap</h2>
+    </div>
+
+    <div class="mb-5 reveal">
+      <h5 class="fw-bold mb-4"><i class="bi bi-basket text-primary me-2"></i>Pakaian & Tekstil</h5>
+      <div class="table-responsive shadow-sm rounded-4">
+        <table class="table table-hover align-middle mb-0">
+          <thead class="table-light">
+            <tr>
+              <th class="ps-4">Jenis Item</th>
+              <th>Cuci Only</th>
+              <th>Cuci + Setrika</th>
+              <th>Express</th>
+              <th>Satuan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="ps-4 fw-medium">Pakaian biasa</td><td>Rp 6.000</td><td>Rp 9.000</td><td>Rp 15.000</td><td>per kg</td></tr>
+            <tr><td class="ps-4 fw-medium">Jaket tipis</td><td>Rp 15.000</td><td>Rp 20.000</td><td>Rp 30.000</td><td>per pcs</td></tr>
+            <tr><td class="ps-4 fw-medium">Selimut / bedcover</td><td>Rp 20.000</td><td>Rp 30.000</td><td>Rp 45.000</td><td>per pcs</td></tr>
+            <tr><td class="ps-4 fw-medium">Sprei set</td><td>Rp 25.000</td><td>Rp 35.000</td><td>Rp 50.000</td><td>per set</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="mb-5 reveal">
+      <h5 class="fw-bold mb-4"><i class="bi bi-suit-heart text-danger me-2"></i>Pakaian Formal & Spesial</h5>
+      <div class="table-responsive shadow-sm rounded-4">
+        <table class="table table-hover align-middle mb-0">
+          <thead class="table-light">
+            <tr>
+              <th class="ps-4">Jenis Item</th>
+              <th>Harga</th>
+              <th>Waktu Proses</th>
+              <th>Keterangan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="ps-4 fw-medium">Jas (satu set)</td><td>Rp 75.000</td><td>2-3 hari</td><td>Dry cleaning</td></tr>
+            <tr><td class="ps-4 fw-medium">Gaun pesta</td><td>Rp 75.000</td><td>2-3 hari</td><td>Penanganan hati-hati</td></tr>
+            <tr><td class="ps-4 fw-medium">Kebaya / batik halus</td><td>Rp 35.000</td><td>2 hari</td><td>Cuci tangan</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Ketentuan-->
+<section id="ketentuan" class="py-5" style="background-color: #f1f3f5;">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-md-6 reveal-left">
+        <h5 class="fw-bold mb-4"><i class="bi bi-info-circle text-primary me-2"></i>Ketentuan Layanan</h5>
+        <ul class="list-unstyled">
+          <li class="mb-3 d-flex"><i class="bi bi-pin-angle-fill text-danger me-3"></i> Minimal order cuci kiloan <strong>2 kg</strong></li>
+          <li class="mb-3 d-flex"><i class="bi bi-pin-angle-fill text-danger me-3"></i> Harga belum termasuk biaya antar-jemput di luar 5 km</li>
+          <li class="mb-3 d-flex"><i class="bi bi-pin-angle-fill text-danger me-3"></i> Pembayaran bisa tunai atau transfer (Transfer Bank, GoPay, DANA)</li>
+          <li class="mb-3 d-flex"><i class="bi bi-pin-angle-fill text-danger me-3"></i> Barang hilang/rusak diganti sesuai polis asuransi</li>
+        </ul>
+      </div>
+      <div class="col-md-6 reveal-right">
+        <h5 class="fw-bold mb-4"><i class="bi bi-gift text-primary me-2"></i>Promo & Diskon</h5>
+        <div class="bg-white p-4 rounded-4 shadow-sm">
+          <ul class="list-unstyled mb-0">
+            <li class="mb-3 d-flex"><i class="bi bi-megaphone text-warning me-3"></i> <strong>Member baru:</strong> Diskon 20% untuk order pertama</li>
+            <li class="mb-3 d-flex"><i class="bi bi-megaphone text-warning me-3"></i> <strong>Birthday:</strong> Diskon 15% di bulan ulang tahun Anda</li>
+            <li class="mb-3 d-flex"><i class="bi bi-megaphone text-warning me-3"></i> <strong>Weekend:</strong> Gratis wangi extra setiap Sabtu-Minggu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5 pt-5 reveal-zoom">
+      <h3 class="fw-bold mb-3">Harga Sesuai Budget Anda?</h3>
+      <p class="text-muted mb-4">Pesan sekarang dan nikmati layanan laundry premium!</p>
+      <a href="Order.html" class="btn btn-primary btn-lg px-5 shadow">Pesan Sekarang</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3">
+<div class="container">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <h5 class="fw-bold mb-3">RAMA Laundry</h5>
+      <p class="text-secondary">Laundry cepat, bersih, dan wangi dengan layanan antar jemput gratis.</p>
+      <div class="d-flex gap-3 mt-3">
+        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+
+<div class="col-md-4">
+  <h5 class="fw-bold mb-3">Menu</h5>
+  <ul class="list-unstyled footer-link">
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Service.html">Service</a></li>
+    <li><a href="Price.html">Price</a></li>
+    <li><a href="Order.html">Order</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<div class="col-md-4">
+<h5 class="fw-bold mb-3">Contact</h5>
+<p class="text-secondary mb-2">
+<i class="bi bi-geo-alt me-2"></i>Sidoarjo
+</p>
+<p class="text-secondary mb-2">
+<i class="bi bi-telephone me-2"></i>0812-3456-7890
+</p>
+<p class="text-secondary">
+<i class="bi bi-envelope me-2"></i>laundry@email.com
+</p>
+</div>
+</div>
+<hr class="border-secondary my-4">
+<div class="text-center text-secondary">
+© 2026 RAMALaundry. All rights reserved.
+</div>
+</div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <title>Home - Rama Laundry</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand me-auto" href="#">
+      <img src="gambar/2.png" alt="RAMA Laundry Logo" height="50" class="d-inline-block align-top">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img src="gambar/2.png" alt="Logo" height="50">
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2 active" href="Service.html">Service</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Price.html">Price</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Order.html">Order</a></li>
+          <li class="nav-item"><a class="nav-link mx-lg-2" href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--1-->
+<section class="min-vh-100 d-flex align-items-center position-relative overflow-hidden" style="background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);">
+  <div class="position-absolute top-0 end-0 translate-middle-y opacity-10" style="width: 400px; height: 400px; background: radial-gradient(circle, #0d6efd 0%, transparent 70%);"></div>
+  
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 reveal-left">
+        <span class="badge bg-primary text-white px-3 py-2 rounded-pill mb-3 fw-bold shadow-sm">#1 Laundry Service Sidoarjo</span>
+        <h1 class="display-4 fw-bold mb-4">Urusan Cucian?<br><span class="text-primary text-gradient">Biar Kami Selesaikan.</span></h1>
+        <p class="lead text-secondary mb-5">Hasil sebersih baru, wangi tahan lama, dan diantar langsung ke depan pintu Anda.</p>
+        <div class="d-flex gap-3">
+          <a href="Order.html" class="btn btn-primary px-4 py-3 rounded-pill shadow-lg fw-bold transition-scale">Pesan Sekarang</a>
+          <a href="#cara-kerja" class="btn btn-outline-primary px-4 py-3 rounded-pill fw-bold">Lihat Alur</a>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal-right">
+        <div class="position-relative">
+          <img src="gambar/3.jpg" class="img-fluid rounded-5 shadow-2xl border border-white border-5" alt="Laundry Service">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--2-->
+<section id="cara-kerja" class="min-vh-100 d-flex align-items-center position-relative" style="background-color: #0a2558;">
+  <div class="position-absolute top-0 start-0 w-100 overflow-hidden" style="line-height: 0;">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="width: 100%; height: 50px; fill: #ffffff;">
+      <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+    </svg>
+  </div> 
+
+  <div class="container py-5 text-white">
+    <div class="text-center mb-5 reveal">
+      <h2 class="fw-bold">Alur Pelayanan Kami</h2>
+      <p class="opacity-75">Hanya butuh 4 langkah mudah untuk baju bersih maksimal.</p>
+    </div>
+    
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-3 reveal-up">
+        <div class="step-box text-center">
+          <div class="step-circle mx-auto mb-4 shadow-lg">1</div>
+          <h6 class="fw-bold mb-2">Pesan Online</h6>
+          <p class="small opacity-50">Klik pesan di web/WA</p>
+        </div>
+      </div>
+      <div class="col-md-3 reveal-up" style="transition-delay: 0.1s;">
+        <div class="step-box text-center">
+          <div class="step-circle mx-auto mb-4 shadow-lg">2</div>
+          <h6 class="fw-bold mb-2">Jemput Kurir</h6>
+          <p class="small opacity-50">Kurir kami ke rumahmu</p>
+        </div>
+      </div>
+      <div class="col-md-3 reveal-up" style="transition-delay: 0.2s;">
+        <div class="step-box text-center">
+          <div class="step-circle mx-auto mb-4 shadow-lg">3</div>
+          <h6 class="fw-bold mb-2">Cuci & Setrika</h6>
+          <p class="small opacity-50">Proses profesional uap</p>
+        </div>
+      </div>
+      <div class="col-md-3 reveal-up" style="transition-delay: 0.3s;">
+        <div class="step-box text-center">
+          <div class="step-circle mx-auto mb-4 shadow-lg">4</div>
+          <h6 class="fw-bold mb-2">Antar Kembali</h6>
+          <p class="small opacity-50">Baju bersih tiba kembali</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3">
+<div class="container">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <h5 class="fw-bold mb-3">RAMA Laundry</h5>
+      <p class="text-secondary">Laundry cepat, bersih, dan wangi dengan layanan antar jemput gratis.</p>
+      <div class="d-flex gap-3 mt-3">
+        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+
+<div class="col-md-4">
+  <h5 class="fw-bold mb-3">Menu</h5>
+  <ul class="list-unstyled footer-link">
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Service.html">Service</a></li>
+    <li><a href="Price.html">Price</a></li>
+    <li><a href="Order.html">Order</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<div class="col-md-4">
+<h5 class="fw-bold mb-3">Contact</h5>
+<p class="text-secondary mb-2">
+<i class="bi bi-geo-alt me-2"></i>Sidoarjo
+</p>
+<p class="text-secondary mb-2">
+<i class="bi bi-telephone me-2"></i>0812-3456-7890
+</p>
+<p class="text-secondary">
+<i class="bi bi-envelope me-2"></i>laundry@email.com
+</p>
+</div>
+</div>
+<hr class="border-secondary my-4">
+<div class="text-center text-secondary">
+© 2026 RAMALaundry. All rights reserved.
+</div>
+</div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
