@@ -83,7 +83,8 @@ html {
   white-space: nowrap;
 }
 
-/* Keunggulan */
+
+/* Home - Keunggulan */
 .card-keunggulan {
   position: relative;
   overflow: hidden;
@@ -124,7 +125,7 @@ html {
   box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
 }
 
-/* Testimoni */
+/* Home - Testimoni */
 .testi-card {
   background: #fff;
   border-radius: 20px;
@@ -181,7 +182,6 @@ transform:translateY(-10px);
 box-shadow:0 20px 40px rgba(0,0,0,0.1);
 }
 
-
 .footer-link li{
 margin-bottom:8px;
 }
@@ -215,7 +215,6 @@ color:white;
 
 
 /* ABOUT */
-/* --- RESET & LAYOUT FIX --- */
 .section-fixed {
     position: relative;
     width: 100%;
@@ -229,14 +228,14 @@ color:white;
     }
 }
 
-/* --- BACKGROUNDS --- */
+/* ABOUT - BACKGROUNDS */
 .story-bg {
     background: url('gambar/4.jpg') center/cover no-repeat;
     min-height: 350px;
 }
 
 .vision-bg {
-    background: url('https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?q=80&w=1200') center/cover no-repeat;
+    background: url('gambar/7.jpg') center/cover no-repeat;
     min-height: 400px;
 }
 
@@ -253,14 +252,14 @@ color:white;
 .max-w-md { max-width: 500px; }
 .vr { width: 1px; background-color: #dee2e6; opacity: 1; }
 
-/* --- SECTION 3: PARALLAX & GLASS --- */
+/* ABOUT - 3 */
 .principles-parallax {
     position: relative;
     padding: 100px 0;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('https://images.unsplash.com/photo-1545173168-9f1947eebb7f?q=80&w=1500') center/cover fixed no-repeat;
+    background: url('gambar/5.jpg') center/cover fixed no-repeat;
 }
 
 .overlay-dark {
@@ -293,47 +292,8 @@ color:white;
     .p-lg-10 { padding: 3rem 1.5rem !important; }
 }
 
-/* ORDER */
-#order-page .card {
-    transition: none;
-    transform: none !important;
-}
-
-.form-control:focus, .form-select:focus {
-    border-color: #0d6efd;
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
-    background-color: #fff;
-}
-
-
-/* Transisi */
-.reveal, .reveal-left, .reveal-right, .reveal-flip, .reveal-down, .reveal-zoom, .reveal-fade {
-  opacity: 0;
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
-  will-change: transform, opacity;
-}
-
-.reveal { transform: translateY(50px); }
-.reveal-down { transform: translateY(-50px); }
-.reveal-left { transform: translateX(-60px); }
-.reveal-right { transform: translateX(60px); }
-.reveal-flip { transform: perspective(1000px) rotateY(-25deg); }
-
-.reveal-zoom { transform: scale(0.8); }
-
-.reveal-fade { transform: scale(1); } 
-
-.active {
-  opacity: 1 !important;
-  transform: translate(0, 0) !important; 
-  transform: perspective(1000px) rotateY(0) !important; 
-  /* Kembalikan skala ke ukuran normal */
-  transform: scale(1) !important;
-}
-
 
 /*Service*/
-/* Perbaikan Gradient Teks */
 .text-gradient {
   background-image: linear-gradient(90deg, #0d6efd, #0dcaf0);
   background-clip: text;
@@ -370,24 +330,34 @@ color:white;
   transition: transform 0.3s ease;
 }
 
+
+/* ORDER */
+#order-page .card {
+    transition: none;
+    transform: none !important;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+    background-color: #fff;
+}
+
+
 /*Contact*/
-/* --- GLOBAL BACKGROUND --- */
 body {
     margin: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    /* Menggunakan gambar laundry estetik dengan overlay biru air tipis */
     background: linear-gradient(rgba(240, 248, 255, 0.9), rgba(240, 248, 255, 0.9)), 
-                url('https://images.unsplash.com/photo-1545173168-9f1947eebb7f?q=80&w=1500');
+                url('gambar/6.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
-/* --- CONTACT SECTION WRAPPER --- */
 .contact-studio-wrapper {
     padding: 100px 0;
 }
 
-/* Panel Hitam Siku */
 .info-panel-studio {
     background: #0d1b2a;
     color: white;
@@ -396,7 +366,6 @@ body {
     position: relative;
 }
 
-/* Panel Form Siku (Overlap) */
 .form-panel-studio {
     background: #ffffff;
     padding: 60px;
@@ -408,7 +377,6 @@ body {
     box-shadow: 25px 25px 60px rgba(0,0,0,0.05);
 }
 
-/* --- INPUTS SIKU TAJAM --- */
 .studio-field-input {
     border: none !important;
     border-bottom: 2px solid #eee !important;
@@ -423,7 +391,6 @@ body {
     border-bottom-color: #0d6efd !important;
 }
 
-/* --- MAP KOTAK SIKU --- */
 .map-simple-frame {
     border: 15px solid white;
     box-shadow: 0 20px 50px rgba(0,0,0,0.1);
@@ -431,4 +398,30 @@ body {
 
 @media (max-width: 991px) {
     .form-panel-studio { margin-left: 0; margin-top: -30px; padding: 35px; }
+}
+
+
+/* Transisi */
+.reveal, .reveal-left, .reveal-right, .reveal-flip, .reveal-down, .reveal-zoom, .reveal-fade {
+  opacity: 0;
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  will-change: transform, opacity;
+}
+
+.reveal { transform: translateY(50px); }
+.reveal-down { transform: translateY(-50px); }
+.reveal-left { transform: translateX(-60px); }
+.reveal-right { transform: translateX(60px); }
+.reveal-flip { transform: perspective(1000px) rotateY(-25deg); }
+
+.reveal-zoom { transform: scale(0.8); }
+
+.reveal-fade { transform: scale(1); } 
+
+.active {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important; 
+  transform: perspective(1000px) rotateY(0) !important; 
+  /* Kembalikan skala ke ukuran normal */
+  transform: scale(1) !important;
 }
