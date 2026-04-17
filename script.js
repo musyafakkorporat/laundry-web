@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   revealElements();
 
+  
 
   /* --- 2. LOGIKA HALAMAN ORDER (DENGAN PERSISTENSI DATA) --- */
   const laundryForm = document.getElementById("laundryForm");
